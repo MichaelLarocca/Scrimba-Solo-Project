@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    min-width: 400px;
+    text-shadow: 0px 0px 1px black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+    width: 100px;
+    transition: all .2s ease-in-out;
+}
+img:hover {
+    transform: scale(1.2);
+}
+
+#hero {
+  background: url("https://www.jediholo.net/wp-content/uploads/2019/08/Corellia_Planet_Preview.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  color: white;
+  padding: 25px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+    border: 3px solid white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 25px;
+}
+
+#about {
+  padding: 25px; 
+}
+
+#ships {
+  background-color: black;
+}
+
+#ships-img div {
+    border: 25px solid black;
+    color: white;
+    
+}
+
+#card {
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    box-shadow: 8px 8px 3px rgba(0,0,0,0.5);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#guide img {
+    border: 3px solid white;
+    width: 200px;
+    margin: 25px;
+}
+
+#guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+footer {
+    background: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    font-family: inherit;
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (min-width: 500px) {
+   
+   #card {
+       flex-direction: row;
+   } 
+    
+   #guide {
+       flex-direction: row;
+   } 
+    #ships {
+       flex-direction: column;
+   }  
+   #ships-img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+   }   
+}
