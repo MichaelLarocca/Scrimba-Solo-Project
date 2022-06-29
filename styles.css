@@ -31,6 +31,10 @@ img:hover {
   align-items: center;
 }
 
+#about {
+    color: white;
+}
+
 #title {
     border: 3px solid white;
     background-color: rgba(0,0,0,0.5);
